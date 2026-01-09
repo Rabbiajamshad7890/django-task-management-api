@@ -44,7 +44,6 @@ Example:
 Authorization: Bearer <your_acces"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY3NzY4MDA2LCJpYXQiOjE3Njc3NjQ0MDYsImp0aSI6ImIwZmVmYzliNGU5ZTRkNmVhNjFiM2I1OThlZWIzYTNmIiwidXNlcl9pZCI6IjEifQ.PiZFuZFtN5Sst1-3oKms10EKK1V5KGvEPxKu1nSM0w4"s_token>
 
 yaml
-Copy code
 
 ---
 
@@ -69,21 +68,17 @@ cd django-task-management-api
 Create and activate virtual environment:
 
 bash
-Copy code
 python -m venv env
 source env/bin/activate   # Windows: env\Scripts\activate
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Run migrations:
 
 bash
-Copy code
 python manage.py migrate
 Start the server:
 
 bash
-Copy code
 python manage.py runserver
